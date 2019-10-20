@@ -1,0 +1,466 @@
+<!DOCTYPE html><html lang="en" prefix="og: http://ogp.me/ns#"><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><style data-href="/16.8265dc12c6be8799b932.css">code[class*=language-],pre[class*=language-]{-moz-tab-size:4;-ms-hyphens:none;-o-tab-size:4;-webkit-hyphens:none;background:none;color:#f8f8f2;font-family:Consolas,Monaco,Andale Mono,Ubuntu Mono,monospace;hyphens:none;line-height:1.5;tab-size:4;text-align:left;text-shadow:0 1px rgba(0,0,0,.3);white-space:pre;word-break:normal;word-spacing:normal;word-wrap:normal}pre[class*=language-]{border-radius:.3em;margin:.5em 0;overflow:auto;padding:1em}:not(pre)>code[class*=language-],pre[class*=language-]{background:#272822}:not(pre)>code[class*=language-]{border-radius:.3em;padding:.1em;white-space:normal}.token.cdata,.token.comment,.token.doctype,.token.prolog{color:#708090}.token.punctuation{color:#f8f8f2}.namespace{opacity:.7}.token.constant,.token.deleted,.token.property,.token.symbol,.token.tag{color:#f92672}.token.boolean,.token.number{color:#ae81ff}.token.attr-name,.token.builtin,.token.char,.token.inserted,.token.selector,.token.string{color:#a6e22e}.language-css .token.string,.style .token.string,.token.entity,.token.operator,.token.url,.token.variable{color:#f8f8f2}.token.atrule,.token.attr-value,.token.class-name,.token.function{color:#e6db74}.token.keyword{color:#66d9ef}.token.important,.token.regex{color:#fd971f}.token.bold,.token.important{font-weight:700}.token.italic{font-style:italic}.token.entity{cursor:help}</style><style data-href="/app.6b68ee5c9c2f8b8858fb.css">@font-face{font-display:swap;font-family:Open Sans;font-style:normal;font-weight:300;src:local("Open Sans Light "),local("Open Sans-Light"),url(/static/open-sans-latin-300-60c866748ff15f5b347fdba64596b1b1.woff2) format("woff2"),url(/static/open-sans-latin-300-521d17bc9f3526c690e8ada6eee55bec.woff) format("woff")}@font-face{font-display:swap;font-family:Open Sans;font-style:italic;font-weight:300;src:local("Open Sans Light italic"),local("Open Sans-Lightitalic"),url(/static/open-sans-latin-300italic-06bbd3188b34820cd83a0e0b3d0a6f57.woff2) format("woff2"),url(/static/open-sans-latin-300italic-8a648ff38ded89ea15916e84529d62d3.woff) format("woff")}@font-face{font-display:swap;font-family:Open Sans;font-style:normal;font-weight:400;src:local("Open Sans Regular "),local("Open Sans-Regular"),url(/static/open-sans-latin-400-cffb686d7d2f4682df8342bd4d276e09.woff2) format("woff2"),url(/static/open-sans-latin-400-bf2d0783515b7d75c35bde69e01b3135.woff) format("woff")}@font-face{font-display:swap;font-family:Open Sans;font-style:italic;font-weight:400;src:local("Open Sans Regular italic"),local("Open Sans-Regularitalic"),url(/static/open-sans-latin-400italic-987032ea5d57c93d8da215678eae3b86.woff2) format("woff2"),url(/static/open-sans-latin-400italic-db70d0b9cb27ada1a260a2b35e756b8b.woff) format("woff")}@font-face{font-display:swap;font-family:Open Sans;font-style:normal;font-weight:600;src:local("Open Sans SemiBold "),local("Open Sans-SemiBold"),url(/static/open-sans-latin-600-223a277bd88d8a90c8cdf24cda0ad5f5.woff2) format("woff2"),url(/static/open-sans-latin-600-1cd5320f8937d337b61d5117cf9d7b28.woff) format("woff")}@font-face{font-display:swap;font-family:Open Sans;font-style:italic;font-weight:600;src:local("Open Sans SemiBold italic"),local("Open Sans-SemiBolditalic"),url(/static/open-sans-latin-600italic-4950a7205f0b5cefe41fc03ac346e236.woff2) format("woff2"),url(/static/open-sans-latin-600italic-318ea1ada4102c0704a0637228dcad03.woff) format("woff")}@font-face{font-display:swap;font-family:Open Sans;font-style:normal;font-weight:700;src:local("Open Sans Bold "),local("Open Sans-Bold"),url(/static/open-sans-latin-700-d08c09f2f169f4a6edbcf8b8d1636cb4.woff2) format("woff2"),url(/static/open-sans-latin-700-623e3205570002af47fc2b88f9335d19.woff) format("woff")}@font-face{font-display:swap;font-family:Open Sans;font-style:italic;font-weight:700;src:local("Open Sans Bold italic"),local("Open Sans-Bolditalic"),url(/static/open-sans-latin-700italic-c02f5da6e82e1efe0b45841bfd49ce37.woff2) format("woff2"),url(/static/open-sans-latin-700italic-72e19cbb0e38c6773a7751156752cec4.woff) format("woff")}@font-face{font-display:swap;font-family:Open Sans;font-style:normal;font-weight:800;src:local("Open Sans ExtraBold "),local("Open Sans-ExtraBold"),url(/static/open-sans-latin-800-aaeffaf205b9bbb09920089a14dbe9e8.woff2) format("woff2"),url(/static/open-sans-latin-800-c6aa0c4a601fb6ac66f8253fa594dff5.woff) format("woff")}@font-face{font-display:swap;font-family:Open Sans;font-style:italic;font-weight:800;src:local("Open Sans ExtraBold italic"),local("Open Sans-ExtraBolditalic"),url(/static/open-sans-latin-800italic-6b3973ffe02bb6a8be0f8453506ec032.woff2) format("woff2"),url(/static/open-sans-latin-800italic-79b58175343190550489efe46a7f1138.woff) format("woff")}</style><meta name="generator" content="Gatsby 2.0.21"/><style id="__jsx-4192424678">.item.jsx-4192424678,.showItem.jsx-4192424678{background:transparent;-webkit-transition:all 0.5s;-webkit-transition:all 0.5s;transition:all 0.5s;display:-webkit-box;display:-ms-flexbox;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}
+.item.jsx-4192424678 a,.showItem.jsx-4192424678 a{padding:10px;display:-webkit-box;display:-ms-flexbox;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}
+.item.jsx-4192424678 svg,.showItem.jsx-4192424678 svg{margin:0 5px 0 0;opacity:0.3;}
+.itemList .hideItem{display:none;}
+@media screen and (min-width:1024px){.item.jsx-4192424678 a{color:#3e3e3c;padding:10px;-webkit-transition:all 0.5s;-webkit-transition:all 0.5s;transition:all 0.5s;border-radius:5px;}.homepage:not(.fixed) .item.jsx-4192424678 a{color:#ffffff;}.item.jsx-4192424678 a:hover{color:#709425;background:#ffffff;background:rgba(255,255,255,0.4);}.item.jsx-4192424678 svg{-webkit-transition:all 0.5s;-webkit-transition:all 0.5s;transition:all 0.5s;}.item.jsx-4192424678:hover svg{fill:#709425;opacity:1;}.hero .item.jsx-4192424678:hover svg svg{fill:green;}.showItem.jsx-4192424678{display:none;}.hiddenItem.jsx-4192424678{text-align:left;padding:5px;}.hiddenItem.jsx-4192424678 a.inHiddenItem{color:#3e3e3c;}.hiddenItem.jsx-4192424678 a.inHiddenItem:hover{color:#709425;}}</style><style id="__jsx-1665230755">.menu.jsx-1665230755{-webkit-box-align:center;-ms-flex-align:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;background:#ffffff;bottom:0;display:-webkit-box;display:-ms-flexbox;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-flex:1;-ms-flex-positive:1;-webkit-box-flex:1;-webkit-flex-grow:1;-ms-flex-positive:1;flex-grow:1;left:0;max-height:50px;padding:0 10px;position:fixed;width:100%;z-index:1;-webkit-transition:all 0.5s;-webkit-transition:all 0.5s;transition:all 0.5s;}
+.itemList.jsx-1665230755{display:-webkit-box;display:-ms-flexbox;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;list-style:none;margin:0;padding:0;position:relative;width:100%;}
+@media screen and (max-width:1023px){.menu.jsx-1665230755:after{position:absolute;content:"";left:20px;right:20px;top:0;height:1px;background:#709425;}.menu.open.jsx-1665230755{padding:20px;}.homepage:not(.fixed) .menu.jsx-1665230755{bottom:-100px;}}
+@media screen and (min-width:1024px){.menu.jsx-1665230755{border-top:none;background:transparent;display:-webkit-box;display:-ms-flexbox;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;position:relative;-webkit-box-pack:end;-ms-flex-pack:end;-webkit-box-pack:end;-webkit-justify-content:flex-end;-ms-flex-pack:end;justify-content:flex-end;padding-left:50px;-webkit-transition:none;-webkit-transition:none;transition:none;}.itemList.jsx-1665230755{-webkit-box-pack:end;-ms-flex-pack:end;-webkit-box-pack:end;-webkit-justify-content:flex-end;-ms-flex-pack:end;justify-content:flex-end;padding:0;}.hiddenItemList.jsx-1665230755{list-style:none;margin:0;position:absolute;background:#ffffff;border:1px solid #ecebea;top:48px;right:10px;display:-webkit-box;display:-ms-flexbox;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:start;-ms-flex-pack:start;-webkit-box-pack:start;-webkit-justify-content:flex-start;-ms-flex-pack:start;justify-content:flex-start;padding:20px;border-radius:5px;border-top-right-radius:0;}.hiddenItemList.jsx-1665230755:after{content:"";background:#ffffff;z-index:10;top:-10px;right:-1px;width:44px;height:10px;position:absolute;border-left:1px solid #ecebea;border-right:1px solid #ecebea;}.homepage:not(.fixed) .hiddenItemList.jsx-1665230755{border:1px solid transparent;background:#ffffff;background:rgba(255,255,255,0.9);top:50px;}.homepage:not(.fixed) .hiddenItemList.jsx-1665230755:after{top:-11px;border-left:1px solid transparent;border-right:1px solid transparent;background:#ffffff;background:rgba(255,255,255,0.9);}.fixed .hiddenItemList.jsx-1665230755{top:44px;}}</style><style id="__jsx-768897745">.header.jsx-768897745{-webkit-box-align:center;-ms-flex-align:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;background-color:#ffffff;display:-webkit-box;display:-ms-flexbox;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;height:80px;position:relative;top:0;width:100%;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}
+.header.jsx-768897745 a.logoType{-webkit-box-align:center;-ms-flex-align:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;display:-webkit-box;display:-ms-flexbox;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:"column";-webkit-flex-direction:"column";-ms-flex-direction:"column";flex-direction:"column";color:#3e3e3c;}
+.header.jsx-768897745 a.logoType .logo.jsx-768897745{-ms-flex-negative:0;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;}
+.header.homepage.jsx-768897745{position:absolute;background-color:transparent;height:100px;;}
+h1.jsx-768897745{font-size:1.35em;font-weight:400;margin:0 0 5px 0;}
+h2.jsx-768897745{font-weight:400;font-size:.8em;-webkit-letter-spacing:0;-moz-letter-spacing:0;-ms-letter-spacing:0;letter-spacing:0;margin:0;}
+.logo.jsx-768897745{border-radius:65% 75%;border:1px solid #eee;display:inline-block;height:44px;margin:0 20px 0 0;overflow:hidden;width:44px;-webkit-transition:all 0.5s;-webkit-transition:all 0.5s;transition:all 0.5s;}
+.homepage.jsx-768897745 .logo.jsx-768897745{height:60px;width:60px;}
+.logo.jsx-768897745 img.jsx-768897745{width:100%;}
+.sensor.jsx-768897745{display:block;position:absolute;bottom:0;z-index:1;left:0;right:0;height:1px;top:80px;}
+@media screen and (min-width:600px){.header.jsx-768897745{padding:40px;}.header.homepage.jsx-768897745{height:100px;;}}
+@media screen and (max-width:1023px){.header.homepage.jsx-768897745 .logo.jsx-768897745{border:none;}.header.homepage.jsx-768897745 a.logoType,.header.homepage.jsx-768897745 h1.jsx-768897745{color:#ffffff;}.header.homepage.jsx-768897745 h2.jsx-768897745{color:#dddbda;}}
+@media screen and (min-width:1024px){.header.jsx-768897745{-webkit-box-align:center;-ms-flex-align:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;background-color:#ffffff;display:-webkit-box;display:-ms-flexbox;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;position:absolute;top:0;width:100%;-webkit-box-pack:justify;-ms-flex-pack:justify;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;-webkit-transition:padding 0.5s;-webkit-transition:padding 0.5s;transition:padding 0.5s;}.header.fixed.jsx-768897745{height:50px;;background-color:#ffffff;left:0;padding:0 20px;position:fixed;top:0;width:100%;z-index:1;}.header.fixed.jsx-768897745 h1.jsx-768897745{margin:0 0 2px 0;}.header.fixed.jsx-768897745 h2.jsx-768897745{display:none;}.header.homepage.jsx-768897745:not(.fixed) a.logoType,.header.homepage.jsx-768897745:not(.fixed) h1.jsx-768897745{color:#ffffff;}.header.homepage.jsx-768897745:not(.fixed) h2.jsx-768897745{color:#dddbda;}.header.jsx-768897745 a.logoType{text-align:left;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-ms-flex-negative:0;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;width:auto;}.logo.jsx-768897745{margin:0 20px 0 0;}.fixed.jsx-768897745 .logo.jsx-768897745{height:36px;width:36px;}.header.homepage.jsx-768897745:not(.fixed) .logo.jsx-768897745{border:none;}h2.jsx-768897745{-webkit-animation-duration:0.5s;-webkit-animation-duration:0.5s;animation-duration:0.5s;-webkit-animation-name:h2Entry;-webkit-animation-name:h2Entry-jsx-768897745;animation-name:h2Entry-jsx-768897745;}@-webkit-keyframes h2Entry{from.jsx-768897745{opacity:0;}to.jsx-768897745{opacity:1;}}@-webkit-keyframes h2Entry-jsx-768897745{from{opacity:0;}to{opacity:1;}}@keyframes h2Entry-jsx-768897745{from{opacity:0;}to{opacity:1;}}}</style><style id="__jsx-2542452449">h1.jsx-2542452449{font-size:2.2em;margin:0 0 40px 0;-webkit-animation-name:headlineEntry;-webkit-animation-name:headlineEntry-jsx-2542452449;animation-name:headlineEntry-jsx-2542452449;-webkit-animation-duration:1s;-webkit-animation-duration:1s;animation-duration:1s;}
+h1.jsx-2542452449 span{font-weight:400;display:block;font-size:0.5em;-webkit-letter-spacing:0;-moz-letter-spacing:0;-ms-letter-spacing:0;letter-spacing:0;margin:0 0 5px 0;}
+h1.jsx-2542452449 svg{height:0.75em;fill:#709425;}
+@-webkit-keyframes headlineEntry{from.jsx-2542452449{opacity:0.5;}to.jsx-2542452449{opacity:1;}}
+@-webkit-keyframes headlineEntry-jsx-2542452449{from{opacity:0.5;}to{opacity:1;}}
+@keyframes headlineEntry-jsx-2542452449{from{opacity:0.5;}to{opacity:1;}}
+@media screen and (min-width:600px){h1.jsx-2542452449{font-size:calc(2em * 1.2);}}
+@media screen and (min-width:1024px){h1.jsx-2542452449{font-size:calc(2em * 1.4);}}</style><style id="__jsx-2703193364">.meta.jsx-2703193364{display:-webkit-box;display:-ms-flexbox;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-flow:row wrap;-webkit-flex-flow:row wrap;-ms-flex-flow:row wrap;flex-flow:row wrap;font-size:0.8em;margin:20px 0;background:transparent;}
+.meta.jsx-2703193364 svg{fill:#709425;margin:0 5px 0 0;}
+.meta.jsx-2703193364 span.jsx-2703193364{-webkit-box-align:center;-ms-flex-align:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;display:-webkit-box;display:-ms-flexbox;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;text-transform:uppercase;margin:5px 10px 5px 0;}
+@media screen and (min-width:600px){.meta.jsx-2703193364{margin:calc(20px * 1.5) 0 20px;}}</style><style id="__jsx-133030572">.bodytext.jsx-133030572{-webkit-animation-name:bodytextEntry;-webkit-animation-name:bodytextEntry-jsx-133030572;animation-name:bodytextEntry-jsx-133030572;-webkit-animation-duration:1s;-webkit-animation-duration:1s;animation-duration:1s;}
+.bodytext.jsx-133030572 h2,.bodytext.jsx-133030572 h3{margin:1.5em 0 1em;}
+.bodytext.jsx-133030572 h2{line-height:1.2;font-size:1.7em;}
+.bodytext.jsx-133030572 h3{font-size:1.35em;line-height:1.3;}
+.bodytext.jsx-133030572 p{font-size:1.1em;line-height:1.6;margin:0 0 1.5em;}
+.bodytext.jsx-133030572 ul{list-style:circle;margin:0 0 1.5em;padding:0 0 0 1.5em;}
+.bodytext.jsx-133030572 li{margin:0.7em 0;line-height:1.5;}
+.bodytext.jsx-133030572 a{font-weight:600;color:#709425;-webkit-text-decoration:underline;text-decoration:underline;}
+.bodytext.jsx-133030572 a.gatsby-resp-image-link{border:0;display:block;margin:2.5em 0;border-radius:10px;overflow:hidden;border:1px solid #ecebea;}
+.bodytext.jsx-133030572 code.language-text{background:#ecebea;text-shadow:none;color:inherit;padding:0.1em 0.3em 0.2em;border-radius:0.1em;}
+@-webkit-keyframes bodytextEntry{from.jsx-133030572{opacity:0;}to.jsx-133030572{opacity:1;}}
+@-webkit-keyframes bodytextEntry-jsx-133030572{from{opacity:0;}to{opacity:1;}}
+@keyframes bodytextEntry-jsx-133030572{from{opacity:0;}to{opacity:1;}}</style><style id="__jsx-646394116">.author.jsx-646394116{margin:40px 0;padding:40px 0;border-top:1px solid #ecebea;border-bottom:1px solid #ecebea;}
+.avatar.jsx-646394116{float:left;border-radius:65% 75%;border:1px solid #ecebea;display:inline-block;height:50px;margin:5px 20px 0 0;overflow:hidden;width:50px;}
+.avatar.jsx-646394116 img.jsx-646394116{width:100%;}
+.note.jsx-646394116{font-size:0.9em;line-height:1.6;}
+@media screen and (min-width:600px){.author.jsx-646394116{display:-webkit-box;display:-ms-flexbox;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;}.avatar.jsx-646394116{-webkit-box-flex:0;-ms-flex:0 0 auto;-webkit-flex:0 0 auto;-ms-flex:0 0 auto;flex:0 0 auto;}}</style><style id="__jsx-126278577">.links.jsx-126278577{display:-webkit-box;display:-ms-flexbox;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;padding:0 20px 40px;border-bottom:1px solid #ecebea;margin:0 0 40px 0;}
+.links.jsx-126278577 a{display:-webkit-box;display:-ms-flexbox;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;}
+.links.jsx-126278577 a:nth-child(2){margin:20px 0 0;}
+.links.jsx-126278577 svg{fill:orange;width:20px;height:20px;-ms-flex-negative:0;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;-webkit-box-flex:0;-ms-flex-positive:0;-webkit-box-flex:0;-webkit-flex-grow:0;-ms-flex-positive:0;flex-grow:0;margin:0 20px 0 0;}
+h4.jsx-126278577{font-weight:600;margin:0;font-size:1.1em;}
+time.jsx-126278577{color:#969492;display:block;font-weight:400;font-size:0.8em;margin-top:0.5em;}
+@media screen and (min-width:1024px){.links.jsx-126278577{-webkit-box-orient:horizontal;-webkit-box-direction:reverse;-ms-flex-direction:row-reverse;-webkit-flex-direction:row-reverse;-ms-flex-direction:row-reverse;flex-direction:row-reverse;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;}.links.jsx-126278577 a{-ms-flex-preferred-size:50%;-webkit-flex-basis:50%;-ms-flex-preferred-size:50%;flex-basis:50%;}.links.jsx-126278577 a:nth-child(2){margin:0;}.links.jsx-126278577 svg{-webkit-transition:all 0.5s;-webkit-transition:all 0.5s;transition:all 0.5s;margin:0 10px 0 0;}@media (hover:hover){.links.jsx-126278577 a:hover svg{-webkit-transform:scale(1.5);-webkit-transform:scale(1.5);-ms-transform:scale(1.5);transform:scale(1.5);}}}</style><style id="__jsx-3595558049">.comments.jsx-3595558049{margin:0 -8px 20px;}</style><style id="__jsx-1766939654">.article.jsx-1766939654{padding:20px;margin:0 auto;}
+@media screen and (min-width:600px){.article.jsx-1766939654{padding:calc(20px) calc(20px * 2);max-width:650px;}}
+@media screen and (min-width:1024px){.article.jsx-1766939654{padding:calc(20px * 2 + 90px) 0 calc(20px * 2);max-width:700px;}}</style><style id="__jsx-2344609357">.footer.jsx-2344609357{background:#ffffff;padding:20px;padding-top:0;padding-bottom:120px;}
+.footer.jsx-2344609357 ul{list-style:none;text-align:center;padding:0;}
+.footer.jsx-2344609357 ul li{color:#969492;font-size:.8em;padding:2px 10px;position:relative;display:inline-block;}
+.footer.jsx-2344609357 ul li:after{content:"•";position:absolute;right:calc(5px * -1);}
+.footer.jsx-2344609357 ul li:last-child:after{content:"";}
+@media screen and (min-width:1024px){.footer.jsx-2344609357{padding:0 1em 1.5em;}}</style><style id="__jsx-3017011455">main.jsx-3017011455{min-height:80vh;}</style><style id="__jsx-3148707342">html{-webkit-box-sizing:border-box;box-sizing:border-box;}
+*,*:after,*:before{-webkit-box-sizing:inherit;box-sizing:inherit;margin:0;padding:0;}
+body{font-family:Arial, sans-serif;;}
+h1,h2,h3{font-weight:400;line-height:1.1;-webkit-letter-spacing:-0.03em;-moz-letter-spacing:-0.03em;-ms-letter-spacing:-0.03em;letter-spacing:-0.03em;margin:0;}
+h1{-webkit-letter-spacing:-0.04em;-moz-letter-spacing:-0.04em;-ms-letter-spacing:-0.04em;letter-spacing:-0.04em;}
+p{margin:0;}
+strong{font-weight:400;}
+a{-webkit-text-decoration:none;text-decoration:none;color:#666;}
+main{width:auto;display:block;}</style><title data-react-helmet="true">Run Ubuntu on Mac via Docker - HeroBlog - GatsbyJS starter</title><meta data-react-helmet="true" name="description" content="HeroBlog is a GatsbyJS starter."/><meta data-react-helmet="true" property="og:url" content="https://gatsby-starter-hero-blog.greglobinski.comundefined/Mac-Docker-ubuntu/"/><meta data-react-helmet="true" property="og:title" content="Run Ubuntu on Mac via Docker - HeroBlog - GatsbyJS starter"/><meta data-react-helmet="true" property="og:description" content="HeroBlog is a GatsbyJS starter."/><meta data-react-helmet="true" property="og:image" content="[object Object]"/><meta data-react-helmet="true" property="og:type" content="website"/><meta data-react-helmet="true" property="fb:app_id" content="..."/><meta data-react-helmet="true" name="twitter:card" content="summary"/><meta data-react-helmet="true" name="twitter:creator" content=""/><link rel="manifest" href="/manifest.webmanifest"/><meta name="theme-color" content="#666"/><link rel="alternate" type="application/rss+xml" href="/rss.xml"/><link rel="sitemap" type="application/xml" href="/sitemap.xml"/><link as="script" rel="preload" href="/webpack-runtime-2f1bc7ddbb479095329e.js"/><link as="script" rel="preload" href="/app-e05a166cd5e0511a830b.js"/><link as="script" rel="preload" href="/0-29d6f7794e84a205392b.js"/><link as="script" rel="preload" href="/16-052d31212ed47609ce11.js"/><link as="script" rel="preload" href="/component---src-templates-post-template-js-56290e2be16568ece094.js"/><link rel="preload" href="/static/d/53/path---mac-docker-ubuntu-e-88-89a-9yNRkM0Vjiy2EWOfnQn9tLldiE.json" as="fetch" crossOrigin="use-credentials"/><meta name="apple-mobile-web-app-capable" content="yes"/><meta name="apple-mobile-web-app-status-bar-style" content="#D0E0D8"/><meta name="apple-mobile-web-app-title" content="Lazywill"/><link rel="apple-touch-icon" href="/icons/apple-icon-57x57.png" sizes="57x57"/><link rel="apple-touch-icon" href="/icons/apple-icon-60x60.png" sizes="60x60"/><link rel="apple-touch-icon" href="/icons/apple-icon-72x72.png" sizes="72x72"/><link rel="apple-touch-icon" href="/icons/apple-icon-76x76.png" sizes="76x76"/><link rel="apple-touch-icon" href="/icons/apple-icon-114x114.png" sizes="114x114"/><link rel="apple-touch-icon" href="/icons/apple-icon-120x120.png" sizes="120x120"/><link rel="apple-touch-icon" href="/icons/apple-icon-144x144.png" sizes="144x144"/><link rel="apple-touch-icon" href="/icons/apple-icon-152x152.png" sizes="152x152"/><link rel="apple-touch-icon" href="/icons/apple-icon-180x180.png" sizes="180x180"/><link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png"/><link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png"/><link rel="icon" type="image/png" sizes="96x96" href="/icons/favicon-96x96.png"/></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" role="group"><header class="jsx-768897745 header  "><a class="logoType" href="/"><div class="jsx-768897745 logo"><img src="/static/avatar-6e33f01bc110ee59f720e12c8ffcea1e.jpg" alt="HeroBlog - a GatsbyJS starter" class="jsx-768897745"/></div><div class="jsx-768897745 type"><h1 class="jsx-768897745">Yujie Wang</h1><h2 class="jsx-768897745">learn, share, inspire</h2></div></a><nav rel="js-menu" class="jsx-1665230755 menu "><ul class="jsx-1665230755 itemList"><li class="jsx-4192424678 item"><a class="" data-slug="/" href="/"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512" height="1em" width="1em"><path d="M488 312.7V456c0 13.3-10.7 24-24 24H348c-6.6 0-12-5.4-12-12V356c0-6.6-5.4-12-12-12h-72c-6.6 0-12 5.4-12 12v112c0 6.6-5.4 12-12 12H112c-13.3 0-24-10.7-24-24V312.7c0-3.6 1.6-7 4.4-9.3l188-154.8c4.4-3.6 10.8-3.6 15.3 0l188 154.8c2.7 2.3 4.3 5.7 4.3 9.3zm83.6-60.9L488 182.9V44.4c0-6.6-5.4-12-12-12h-56c-6.6 0-12 5.4-12 12V117l-89.5-73.7c-17.7-14.6-43.3-14.6-61 0L4.4 251.8c-5.1 4.2-5.8 11.8-1.6 16.9l25.5 31c4.2 5.1 11.8 5.8 16.9 1.6l235.2-193.7c4.4-3.6 10.8-3.6 15.3 0l235.2 193.7c5.1 4.2 12.7 3.5 16.9-1.6l25.5-31c4.2-5.2 3.4-12.7-1.7-16.9z"></path></svg> <!-- -->Home</a></li><li class="jsx-4192424678 item"><a class="" data-slug="/category/" href="/category/"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em"><path d="M0 252.118V48C0 21.49 21.49 0 48 0h204.118a48 48 0 0 1 33.941 14.059l211.882 211.882c18.745 18.745 18.745 49.137 0 67.882L293.823 497.941c-18.745 18.745-49.137 18.745-67.882 0L14.059 286.059A48 48 0 0 1 0 252.118zM112 64c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48z"></path></svg> <!-- -->Categories</a></li><li class="jsx-4192424678 item"><a class="" data-slug="/about/" href="/about/"> <!-- -->About</a></li></ul></nav></header><div class="jsx-768897745 sensor"></div><main class="jsx-3017011455 jsx-3148707342"><article class="jsx-1766939654 article"><header><h1 class="jsx-2542452449">Run Ubuntu on Mac via Docker</h1><p class="jsx-2703193364 meta"><span class="jsx-2703193364"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" size="18" height="18" width="18"><path d="M12 192h424c6.6 0 12 5.4 12 12v260c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V204c0-6.6 5.4-12 12-12zm436-44v-36c0-26.5-21.5-48-48-48h-48V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H160V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H48C21.5 64 0 85.5 0 112v36c0 6.6 5.4 12 12 12h424c6.6 0 12-5.4 12-12z"></path></svg> <!-- -->2019-10-11</span><span class="jsx-2703193364"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" size="18" height="18" width="18"><path d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z"></path></svg> <!-- -->yujie wang</span><span class="jsx-2703193364"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" size="18" height="18" width="18"><path d="M0 252.118V48C0 21.49 21.49 0 48 0h204.118a48 48 0 0 1 33.941 14.059l211.882 211.882c18.745 18.745 18.745 49.137 0 67.882L293.823 497.941c-18.745 18.745-49.137 18.745-67.882 0L14.059 286.059A48 48 0 0 1 0 252.118zM112 64c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48z"></path></svg><a href="/category/environment">environment</a></span></p></header><div class="jsx-133030572 bodytext"><p>To ensure consistance across platforms, we were suggested to install ubuntu as vertual system in our first lecture on Programming. Dr David Thomas provides us with detailed solutions to get ubuntu on MacOS and Windows by VirtualBox and Hyper-V. But due to unknown reasons(probably lack of adaption to this latest OS version), VirtualBox often crashes on latest macOS Catalina. Here is an alternate way to run ubuntu on macOS.</p>
+<ul>
+<li>You will be able to have a folder called “ubuntu” on your desktop which linked to /src/ in ubuntu.</li>
+<li>You will be able to start ubuntu in about 1 second.</li>
+<li>Docker container takes less resources on your computer than vm.</li>
+<li>BUT no graphic user interface.</li>
+</ul>
+<h2>1. Download Docker (1.5 min)</h2>
+<p>Copy and paste the following link to the address bar of your preferred bowser would start the download of <a href="https://download.docker.com/mac/stable/Docker.dmg">Docker-Desktop for Mac</a>.</p>
+<p>
+  <a
+    class="gatsby-resp-image-link"
+    href="/static/download-4e39cd86a2a87a9171958dd33549cc4f-03fd9.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+  
+  <span
+    class="gatsby-resp-image-wrapper"
+    style="position: relative; display: block; ; max-width: 800px; margin-left: auto; margin-right: auto;"
+  >
+    <span
+      class="gatsby-resp-image-background-image"
+      style="padding-bottom: 74.24381301558202%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAABYlAAAWJQFJUiTwAAAB10lEQVQ4y6WTa2viUBCGQ1n2W1GSbGuQWivxQnQl5kRjbjUxKm0ilEI/hP2n+wv2wv6YXT8ttJ7ZmVNbjNiytYGHk3OZN3PemUj6cfVj81y7bRn6F5vZudE1csMw8mazmWualler1b3QXqVSyWVZQWQxPzk9VaWzcuVszHp/HX8IcRRDFEUwHo9hMpnAYDAAFIZ2u12g1WpBt9uFXu8zeJ4Lvu+JeaNxkUqyqlwwZv/xfR+CIHgIw3Bt2/Z6NBoJGGNivj3SOp4VxHEkYobDIX1sKamKWjdNc+UHPmRZtkY4BnLMjluWVQDFxIiCHBPgKMjxNmKNbqPr+lIql8t1PLhaLBZAQv1+H3D+DB7eCwlsePrQo2CpVBKC6fU1JMmUsisEkiit7Y6Cx/cdQcrQslZX2RJu7nKepinMZjOYz+cCKg5ebQ8hhJdiT1j0LKgoSh3TXrmuB5dRzOM4hul0CjQmSQJoOKBn4DhOEewEN5iA43rFDLGHhCBj6ItpciwQbEM+veajtevhk+DGH75dkP/kpQxFRd8suNVOBcHfm8175OFASDCjojRogYymbqcCHALF4m96Q32odTqdr8gv5Dvy4wB+It9qtZor4XOElJBPiPoOZOTDP37Dj7RkZ2FAAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+    >
+      <img
+        class="gatsby-resp-image-image"
+        style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;"
+        alt="download"
+        title=""
+        src="/static/download-4e39cd86a2a87a9171958dd33549cc4f-48538.png"
+        srcset="/static/download-4e39cd86a2a87a9171958dd33549cc4f-bed0f.png 200w,
+/static/download-4e39cd86a2a87a9171958dd33549cc4f-5fd34.png 400w,
+/static/download-4e39cd86a2a87a9171958dd33549cc4f-48538.png 800w,
+/static/download-4e39cd86a2a87a9171958dd33549cc4f-b70ec.png 1200w,
+/static/download-4e39cd86a2a87a9171958dd33549cc4f-d134a.png 1600w,
+/static/download-4e39cd86a2a87a9171958dd33549cc4f-03fd9.png 2182w"
+        sizes="(max-width: 800px) 100vw, 800px"
+      />
+    </span>
+  </span>
+  
+  </a>
+    </p>
+<h2>2. Install Docker (1 min)</h2>
+<ul>
+<li>
+<p>Drag and drop Docker into Application folder. And wait for the process to complete.
+
+  <a
+    class="gatsby-resp-image-link"
+    href="/static/drag and drop-aef7c26b40b8f2408e37c5638c58be6e-85fa1.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+  
+  <span
+    class="gatsby-resp-image-wrapper"
+    style="position: relative; display: block; ; max-width: 800px; margin-left: auto; margin-right: auto;"
+  >
+    <span
+      class="gatsby-resp-image-background-image"
+      style="padding-bottom: 54.32692307692307%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAABYlAAAWJQFJUiTwAAACUElEQVQoz6WTS08TURiGx6CrmqhxIV56W4kmbvkBbty5cEXiP9AEI4QUDSRocIMx2oihibZYDCaYoMGYBmgieEFijaGVUkaUSyt2aDu9AC097cyc128uhIUr45c8c2a+zHnmPTNzBIHqgiA0Nh8RzjoE4TTRdIxoJI4TJ4lzB4UmvX+YsBHC35wh3MQ+3Sd03e4f6Q0M4/rdYOXmvSHW47V4MMS67weZNzjGHvpfsL7+p8zre8b8gWH2mHhiUg0MPucDvsCy0+k6qvsO9IVXx4d/AcEENL8IjKwAoXXiNxApAYtlGmUiDyQZUAFQtihyc1zO1zIOl9tuCH2T8dBECuj+VFbcr+u8ebzOXy5VeUxi/PPPLJ/5nuFv42kuJjdousbFQp2/WWN8ar3Go5maukFPiK1mpVMOpykcCC+EZnPAxXeqOpgErs5xdMU4VrJVjM0m8Gr6K77Nx5FILIDvbCOcBVo+VnB5poLRZF0r1YFoMi/ZnS4rYTgeSmwBj0RNbYkA598D0zRpfk3GlJhBLL2DKmPIyTLSqSQi6yV457fgTVQQlWsarRjxVF46YbeEk1/EUIEWk97UlNHFIp+TtukKXCVyVfAfRY1Tw+jpVHcqPLsh8YIsc1VRDKGcL0h2hyX8EF0KUUBs1lAnDd2gafrLgoXK9853UUikmDJVF5ZKJcntMoX7FxbFCRgzlb0YlMmIpR+sMntmf7c0zQiIbC6XczrNj9JwrbX10o3OzjttbW097e3tt/6Vjo6OXo/Hc8Vmsx0SSC5Yf3jDf2Lskj+gqyxwfMlh+QAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+    >
+      <img
+        class="gatsby-resp-image-image"
+        style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;"
+        alt="drag and drop"
+        title=""
+        src="/static/drag and drop-aef7c26b40b8f2408e37c5638c58be6e-48538.png"
+        srcset="/static/drag and drop-aef7c26b40b8f2408e37c5638c58be6e-bed0f.png 200w,
+/static/drag and drop-aef7c26b40b8f2408e37c5638c58be6e-5fd34.png 400w,
+/static/drag and drop-aef7c26b40b8f2408e37c5638c58be6e-48538.png 800w,
+/static/drag and drop-aef7c26b40b8f2408e37c5638c58be6e-b70ec.png 1200w,
+/static/drag and drop-aef7c26b40b8f2408e37c5638c58be6e-d134a.png 1600w,
+/static/drag and drop-aef7c26b40b8f2408e37c5638c58be6e-85fa1.png 1664w"
+        sizes="(max-width: 800px) 100vw, 800px"
+      />
+    </span>
+  </span>
+  
+  </a>
+    </p>
+</li>
+<li>
+<p>When completed, you should be able to see Docker in your launchpad.
+
+  <a
+    class="gatsby-resp-image-link"
+    href="/static/launchpad-16852c4dae00a9994528bc6842b4d2ff-6200b.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+  
+  <span
+    class="gatsby-resp-image-wrapper"
+    style="position: relative; display: block; ; max-width: 800px; margin-left: auto; margin-right: auto;"
+  >
+    <span
+      class="gatsby-resp-image-background-image"
+      style="padding-bottom: 62.5%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAABYlAAAWJQFJUiTwAAAC/UlEQVQ4y02T247bVBSG845wUUBCbVUEF2VaDe1MhmkmBx8Tnx3b24fYaZzMNJmGplSoDFRFgyrghofhDT5WUi642NL2sr3Wv/5DZzDo8/1Zl2kYUJQFVV5QKyX3kqqqmM1mzOS5KopDLc9zCrmrLJB7Ri73RKWURXn4vzPW+hyZiq/VDUp+nBbXtFFOnYyo7W+YOD5vmxmZDGyaht9vb7Eskz9ur7mSur4Jyf+8osyLjw3dsY3hTTkPGrIkIalaYjUTpPJhNMAwDKaqZDzxUGnC9uUGTdNYb1+RporBVKfaLajK6oC8M5FpvbCh175jbNm82LXU7YxoZOAdnzAee1ynA3JlkJVLymaFYerc+/QTtG4Xz7bw+meHZqVQIg11nnkFwYufcCcTVts181WLchys066sNyaKFEkxpayXZPWCi+GAx1/cxX3Sxda7BMNHQlcuDfccysqe5RJrFa7v8ePzFW1VM5RVj6Whoev8UDylzmxy16MWEUe6SZueEwdDjGFIaCgyEWgvTMc0R1j6FGe4QRe07xeXLKTh4+Nj7t1/gGWavA2OWGYWpfC46J7IyiY36VciXhfNmTEyMmmY/reybdPv9zi7eMJYEOhqTum4ZMJJPE3QdIO8d0EdRrh1w7mg8EVxpzDkfYznhyJqTJ1/tFrHcV1OTr/jy28/xw1D7iZ/4yYbotDlafdMOLT40NRshd/TIud+FgufiuW7mFe7lzzrTbjzsMdl7NLIgI4uHA3NENObk6VTGpmWpyl1Mz/4zhaO0ywnDIKDNS6XrXBVsGpFvHpGWM2xmrWEIWPpOyKKNeCof8WD0V+Mxg6+GrKrNeZXG968eX0w8a8/v2cmqblcb/ntlxsKScvy9Y62LTjZfOCz239YaxesZKuOLT4yLIehlWAJn5PMJ1NTaonc3lu21BIxdBRFZJli0S6lXrIQpI1QkQrC4PmaJokPyDue5+OLXeLIJ45jybQcEUMJin0U9yfZJ0iOyiS7Qn75v0yXwmu1F0Q22IvyL0nTwTsHr0zTAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+    >
+      <img
+        class="gatsby-resp-image-image"
+        style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;"
+        alt="launchpad"
+        title=""
+        src="/static/launchpad-16852c4dae00a9994528bc6842b4d2ff-48538.png"
+        srcset="/static/launchpad-16852c4dae00a9994528bc6842b4d2ff-bed0f.png 200w,
+/static/launchpad-16852c4dae00a9994528bc6842b4d2ff-5fd34.png 400w,
+/static/launchpad-16852c4dae00a9994528bc6842b4d2ff-48538.png 800w,
+/static/launchpad-16852c4dae00a9994528bc6842b4d2ff-b70ec.png 1200w,
+/static/launchpad-16852c4dae00a9994528bc6842b4d2ff-d134a.png 1600w,
+/static/launchpad-16852c4dae00a9994528bc6842b4d2ff-f6ead.png 2400w,
+/static/launchpad-16852c4dae00a9994528bc6842b4d2ff-6200b.png 2880w"
+        sizes="(max-width: 800px) 100vw, 800px"
+      />
+    </span>
+  </span>
+  
+  </a>
+    </p>
+</li>
+</ul>
+<h2>3. Start Docker (0.5 min)</h2>
+<ul>
+<li>
+<p>Click Docker in the launchpad to start it. You should then be able to see Docker icon in the status bar.
+
+  <a
+    class="gatsby-resp-image-link"
+    href="/static/status bar-996717e331122bf8d70254560e282592-87726.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+  
+  <span
+    class="gatsby-resp-image-wrapper"
+    style="position: relative; display: block; ; max-width: 800px; margin-left: auto; margin-right: auto;"
+  >
+    <span
+      class="gatsby-resp-image-background-image"
+      style="padding-bottom: 77.36625514403292%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAABYlAAAWJQFJUiTwAAABZUlEQVQ4y+2Ry07CUBCG+wjGsKQ35NIWpaenN0BaWgyu1AQTdSEEZCFG4wPAglf/nVPTBhIQSVy6+HImnf98nU6lcaOO53oNTxU941FTMeMOPtM+Fr6HtzjCa6eNj36MaesCE9PAC/UFc2LKbMwchvc0wbh2BsnvdCCoWxZkXYdWqeBU1TGSS1hoJZzIKmRFQVlVUda0LKNQRiUUqo2mhWqjkfWrhgEpjiJcDQboxzGYbWe0GMMla2F+UctqtkHg+xB30jRF1OthPpvg7vYG7bCN6+EQkuM4WVCcrutmeMS562PkNHFP2K5Hzzl8knW7XfRIFJFU4FLP8zwYNN16vYaUSwo4By9w8cAshLQrh2q+0RMD5EOIF5mmidVq9T1hPqVAhAsxnWyjdveQC5fLJaQkSSAQOxGEYbglLWQ/SLeEYh+CmH6K2EkQBIWQ75AeFO77ZL7n8kHhrsAxsl8Jj+Vf+LfCLyU+6aA2ioqxAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+    >
+      <img
+        class="gatsby-resp-image-image"
+        style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;"
+        alt="status bar"
+        title=""
+        src="/static/status bar-996717e331122bf8d70254560e282592-48538.png"
+        srcset="/static/status bar-996717e331122bf8d70254560e282592-bed0f.png 200w,
+/static/status bar-996717e331122bf8d70254560e282592-5fd34.png 400w,
+/static/status bar-996717e331122bf8d70254560e282592-48538.png 800w,
+/static/status bar-996717e331122bf8d70254560e282592-b70ec.png 1200w,
+/static/status bar-996717e331122bf8d70254560e282592-87726.png 1458w"
+        sizes="(max-width: 800px) 100vw, 800px"
+      />
+    </span>
+  </span>
+  
+  </a>
+    </p>
+</li>
+<li>
+<p>Sign up and login into a docker account is not necessary. Just wait util it shows “Docker Desktop is running”.
+
+  <a
+    class="gatsby-resp-image-link"
+    href="/static/docker is running-cf55071b9a14bb035509ad6bf8cd0f10-b8f5d.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+  
+  <span
+    class="gatsby-resp-image-wrapper"
+    style="position: relative; display: block; ; max-width: 526px; margin-left: auto; margin-right: auto;"
+  >
+    <span
+      class="gatsby-resp-image-background-image"
+      style="padding-bottom: 136.1216730038023%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAbCAYAAAB836/YAAAACXBIWXMAABYlAAAWJQFJUiTwAAAGF0lEQVRIx01VW3NSVxj1f3T63OmbdfrkWHMFwuVwOVwSCAbIjRhyD+ZmzFStTh9qtcYkQIDDHXIngYaQxMSqUdunPrR2pjN9bX/G6toHnfHhm8057LP2931rfWtfWr92Df/N3cbfgX4kJRNWrGY8avoGpdEQftK2I+X14MfWZjxqa8Fm6CZqS4t4yvdLX36BZZ0GM59/hsfXr+Hhlcu4//UVXNprb8PvM/O48Pqx3qHHqs2GH5qaofj8/ECHuCxjVatF1GTCVjCISjiMGPfc++oKnmh1uHv5Mp40NeHR1atYFoB/OWXEr/KFV4+nfgcUezeUbj/idjdS9i4U7S7sOBiyAwXJgpTRgqTciVR3AHG3DwnGst6CFb0Zv9llXPrTZUdOsmLdbsUqs4nZPYg4PYg6PIhZHMjaHChaZJTMVhTMNqT4O+FwY72rBzEPD2ZEeUDM5sSFAPzDaUeiXYstXx92R6eQ6h9Cdngc+dAENrlu9g5it7cfB4NDOBgaxl5ojFn14LFJxmOLE0/MDqwwVk1WvJZtzJCAikaHHX8f+zOLrbEp5IMj2J4I42B6BtXRCZQDfTiZnEZ9Ygo17in2DeKZyYZnVhdWWMUawaKMCwH4noAFvQEbNrtansKeJeydSLCEFEvMdBhR0OlR0GiRY6S0eiRNFvX/dasDSe7Nu71Q2La3aoYOGZmWFlRZ1uncAo7nb6M2M4fD8AxO5uax0+VBtrkFOTKfa21DVtcBpcOAuN6EqEaPfFc3Xj38Hkke+oaSu/TeYUOegBXvDZxMTKIaGsXBzRAq7Ne+P4Dz6TDOJyfxYmIC1W4vCpRKlh+nCKowe7FmGRke9LYBKCPf3IxDnw/HI6OojYwRdISAN1Hp7cPp2DiOuNYDAVTcbpTYnixB0wQRYGIVWWfIw7uPgKKkstuD+tQ0jlnu88Ul1KZv4Zhl1wicu96EPCPHfVnRR2aYZHaJDpO6CuCU9mOGJKVkMGKDos0YJLXhcYMZCUaazwXGht6IbZOETUaR+7JCj1aqg6QoXLPUpnj3riEbGak2Dfb7B1EjKTujkziYWUB1luTMzqsZH4osmYHolUIy1jkta5INq5LMVUZULyGqM+KNbG2wnCR7ZQq3yo+3RiZQGh5DOTyH8vgUfqb2KgNBtUdplppgiRFmvyJ0SLBlgwVKF2Xj7MIrs9QoOcO+7FM2h7dmsUeQzaERbATJ9GQYJzykTrIKNI4cS08bJcSFkM0yIkLUzLbUO4BiTwCvG4CcU27e5KzmLDYooj8UeJqRYnlCIkVmtyX6zCiYzMhQxAr7lrTY1R6meIjY+85u+8Ay7aceCuHiwUOKeQHnd++hzv5lmFGekihRJqV2DYG1ai9F6Um9US1fRPpTloV9bev12KL3FfiywNPyRjODjHLjBkG2NBrsMMRa4nORWhTl5yXhQFaUJDNKVMCvghSRoRirenAIL+YX6CpB7NIM9klEjb07ozbPx8fxnBWcjY3xeQpVEng0FUaaEhNjmBGh/WRSMi2t2Pd0oz4+ic0bfmx4fVx92PP3oto/gAOOXLmzCwderr4ASpzvQncPybGoMy2kpOgMBLQ0ZJOmHwpSNuggGUbO5SEpThRlp1qa0tyKbGs70owENRvjx6ucEmFbEUaMgDGhQ5u1IewkN+7TEI7ufIvKwhJ2qcHqIn/zrklyUgQJYvhF8xP8OEKpCB0uS3Y87eA00ZTzNOiXJmPDYLNscoE+mGe5aW8ACY8PWTp10d+PNGWUI0EFo0ld0yQiTrlErE6s0fpXzXbEbS7eM7wCRIaqsHl6uW8AO8FhunEQOYKtMYMY2U4Lxg0mMmtU1wz7luQhMc5xhGBKpxeHvIZLdPwLm6Uh7BRJqZLlY2rwaH4Re7T92IeG5ygJoUXhg8Kx0xS50OA6xy8iNMiRO7/3HbapjAuL1CAlRT/cp+edLN7BjjBWSqJGC6vTsavDIfyysKDGy8VFVMi6ICZB0KiGhsEr9sX9BygzIXX0/nW7cGLQ45T1n7pcOKIF1Z1O1B12HPNaPLaYccaROmM553z3nOKtGQyo8eI/JAk1ScIp953yu394Jf8PZanr94q4ukQAAAAASUVORK5CYII='); background-size: cover; display: block;"
+    >
+      <img
+        class="gatsby-resp-image-image"
+        style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;"
+        alt="docker is running"
+        title=""
+        src="/static/docker is running-cf55071b9a14bb035509ad6bf8cd0f10-b8f5d.png"
+        srcset="/static/docker is running-cf55071b9a14bb035509ad6bf8cd0f10-812f8.png 200w,
+/static/docker is running-cf55071b9a14bb035509ad6bf8cd0f10-eca48.png 400w,
+/static/docker is running-cf55071b9a14bb035509ad6bf8cd0f10-b8f5d.png 526w"
+        sizes="(max-width: 526px) 100vw, 526px"
+      />
+    </span>
+  </span>
+  
+  </a>
+    </p>
+</li>
+</ul>
+<h2>Get Ubuntu run (1 min)</h2>
+<ul>
+<li>
+<p>Open Spotlight Search  <code class="language-text">⌘ + SPACE</code>  and type “terminal” in the pop-up window.
+
+  <a
+    class="gatsby-resp-image-link"
+    href="/static/spotlight search-4ddcfd4576376390a82a4802bddfce7e-9104c.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+  
+  <span
+    class="gatsby-resp-image-wrapper"
+    style="position: relative; display: block; ; max-width: 800px; margin-left: auto; margin-right: auto;"
+  >
+    <span
+      class="gatsby-resp-image-background-image"
+      style="padding-bottom: 68.43434343434343%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAABYlAAAWJQFJUiTwAAACuUlEQVQ4y6WTS08TURTHqyswLrAvmAGCtE2g1Dax8+xMX9NOaWk7M+30TaHWSIoRFzZsjIm68gOw8QtI/QoaFn4et8YGEir3eO8wJU0gbrzJP+fOyT2/+z/nZhxSMPgwvLpK0/NzFD03R3GBACWHtig5GKT4rS1q0++ngn7fHfJTm751KrK5QXORsNfrct53kMWzzElBzYKhlX9VDH0cl2JjgWXGAseOZayMKPxLv9OicJHg+Z/hgH/DAr5QlK+ful340Gigj6YJ78pleFsqwXtNg1dYmZgI2alEwYrqbE6KQYrnLtdXVgQLeFLWTn8cvYazweHl9/0eOsP6trePzlod9LnfR6mYiDICjxQsXIwykoQUEnEe566wS0jz3Pna8vI1UM0oo6OXA2jUzEmtWoFGvQaGrkE2o0AdRxU7wIWAoZDCe47jwR8IQIxliGNEgNjhxeMpMCfzo4O2Dm1dn7S1MnR0HYrJBORlCYrplNUWAZIYDYct2LrPB2wkQnK3gVmJGR12NehUqpN+qwltQ4d8Im6pgMFTICmMMwxEn4QgGgpZ+8xdDhUxOurVClAt7Ez2aibUijtWm9txGXZSyRsgEXmMDr6QyB7FbWBJSYyOB3046HYnvUYddisG1DG0WS5BNb9tOZsVcZ6T5alrRC5MzwKT0aenu/k8NHVtol7PBOHbyUGEHSJ7TpZsR6iA87m4jBRRuLKB5zdANZkcHez3YM+sTsxCHlVyKjLULDJIxJoCCSwnSwi7R28OB+hZs4lSLHN143DFBvK8+MUwW9AqF/8U02nrIfBMIMWxuDUJlOsZ4W/OmqmG/6pds0o6ggR+GNJ6gmXO12ias4Be56Pkkst57HE6h4su13DJ47HlHtKL3iFl70lu0e0eknPuhQVL9rlj2ut9/mB+3uOYWfew7v+HrAUAjr/smX0UQNgF9AAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+    >
+      <img
+        class="gatsby-resp-image-image"
+        style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;"
+        alt="spotlight search"
+        title=""
+        src="/static/spotlight search-4ddcfd4576376390a82a4802bddfce7e-48538.png"
+        srcset="/static/spotlight search-4ddcfd4576376390a82a4802bddfce7e-bed0f.png 200w,
+/static/spotlight search-4ddcfd4576376390a82a4802bddfce7e-5fd34.png 400w,
+/static/spotlight search-4ddcfd4576376390a82a4802bddfce7e-48538.png 800w,
+/static/spotlight search-4ddcfd4576376390a82a4802bddfce7e-b70ec.png 1200w,
+/static/spotlight search-4ddcfd4576376390a82a4802bddfce7e-9104c.png 1584w"
+        sizes="(max-width: 800px) 100vw, 800px"
+      />
+    </span>
+  </span>
+  
+  </a>
+    </p>
+</li>
+<li>
+<p>Open Terminal.
+
+  <a
+    class="gatsby-resp-image-link"
+    href="/static/terminal-4db28fd08c943e68acdba11f0d53d134-5ac44.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+  
+  <span
+    class="gatsby-resp-image-wrapper"
+    style="position: relative; display: block; ; max-width: 800px; margin-left: auto; margin-right: auto;"
+  >
+    <span
+      class="gatsby-resp-image-background-image"
+      style="padding-bottom: 70.74074074074073%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAABYlAAAWJQFJUiTwAAABFklEQVQ4y2OIdTf77e5m/tfD1uGfu73dPx83p3/uDvb/PJ3s/wV6uv0LDfb7Fxzg+y/A2/Oft5vrP28X93+OVtZAbAXG1qZm/4z19f9aGBv/c7W1+8UQFFn/2cs75Z2hkfkLI2PrlyamNi+NTaxfmlvYvzQ0snqpZ2j+wtzK4aW+ocVLJRWd56pq+s9V1PSeq6jqArHec0Vl7edyippgGij3gsE7vOxLUHTBGwNLp6cGli7PkLGhlSsK3wDGt4KyrSBqQNjI2u2Zjon9UwYJSblH0jLKj+XkNR/LymsAaQSWRaE1Ufi4MIMsSKGcxmMZOXUgjR/LEMAgNQwgw6iJGWSJcBnxeNTAEWHgE5CBD6lk4BOggQ8A9rx5YzRi1NMAAAAASUVORK5CYII='); background-size: cover; display: block;"
+    >
+      <img
+        class="gatsby-resp-image-image"
+        style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;"
+        alt="terminal"
+        title=""
+        src="/static/terminal-4db28fd08c943e68acdba11f0d53d134-48538.png"
+        srcset="/static/terminal-4db28fd08c943e68acdba11f0d53d134-bed0f.png 200w,
+/static/terminal-4db28fd08c943e68acdba11f0d53d134-5fd34.png 400w,
+/static/terminal-4db28fd08c943e68acdba11f0d53d134-48538.png 800w,
+/static/terminal-4db28fd08c943e68acdba11f0d53d134-b70ec.png 1200w,
+/static/terminal-4db28fd08c943e68acdba11f0d53d134-d134a.png 1600w,
+/static/terminal-4db28fd08c943e68acdba11f0d53d134-5ac44.png 1620w"
+        sizes="(max-width: 800px) 100vw, 800px"
+      />
+    </span>
+  </span>
+  
+  </a>
+    </p>
+</li>
+<li>
+<p>Copy and paste the following code. Press Enter to run.</p>
+</li>
+</ul>
+<div class="gatsby-highlight" data-language="bash"><pre class="language-bash"><code class="language-bash"><span class="token function">mkdir</span> /Users/<span class="token variable">$USER</span>/Desktop/ubuntu<span class="token punctuation">;</span>
+docker run \
+  —name ubuntu \
+  -e HOST_IP<span class="token operator">=</span><span class="token variable"><span class="token variable">$(</span><span class="token function">ifconfig</span> en0 <span class="token operator">|</span> <span class="token function">awk</span> <span class="token string">'/ *inet /{print <span class="token variable">$2</span>}'</span><span class="token variable">)</span></span> \
+  -v /Users/<span class="token variable">$USER</span>/Desktop/ubuntu:/src \
+  -t -I \
+  ubuntu /bin/bash</code></pre></div>
+<ul>
+<li>
+<p>If you see something like this, Ubuntu is already up and running.
+
+  <a
+    class="gatsby-resp-image-link"
+    href="/static/ubuntu-61929c4b13a85ff7c554697452574f8e-5ac44.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+  
+  <span
+    class="gatsby-resp-image-wrapper"
+    style="position: relative; display: block; ; max-width: 800px; margin-left: auto; margin-right: auto;"
+  >
+    <span
+      class="gatsby-resp-image-background-image"
+      style="padding-bottom: 70.74074074074073%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAABYlAAAWJQFJUiTwAAABR0lEQVQ4y+3My06DUBAGYB6jLdC7Ui61FLCFAkIBLbTSq2mMLnwDl8bH1QIHTHRl4qZx4sGYuDAx0XSniy//ZDLzE1eBug38wWtgDcG3bZj5HoxdPDs2LCc+rM/msF7NYHE6hmngw3Q0gZHtgWda4Og6GP0+KGIXNEWBY8vaEuHq9tlxLp8EvpMKvJwdtOWsjcmShlPJeEHKZFl74LhuRtNNVK20UK3K4mRQpbyPKKqJiqU6IqkGqtXYlAjPb16WF9ePbrBI7dE8PfKmqR+uM9UKkIYZbpiKvWHCinrMS0bCdfUPxrt8x0tmIshmwrTVmOA7SiKrFjoceEjRXJwuUs2TlBMHSY7Pn3GyHe1b+Q0j9BKiRO5FhWJjUyjWPxXqmxLZjH6KpPYigq60ovIXbJTvf4Ogy0y0O/+Ff6Iwzgvvd1QY48K7Ny0MfC5fyRJtAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+    >
+      <img
+        class="gatsby-resp-image-image"
+        style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;"
+        alt="ubuntu"
+        title=""
+        src="/static/ubuntu-61929c4b13a85ff7c554697452574f8e-48538.png"
+        srcset="/static/ubuntu-61929c4b13a85ff7c554697452574f8e-bed0f.png 200w,
+/static/ubuntu-61929c4b13a85ff7c554697452574f8e-5fd34.png 400w,
+/static/ubuntu-61929c4b13a85ff7c554697452574f8e-48538.png 800w,
+/static/ubuntu-61929c4b13a85ff7c554697452574f8e-b70ec.png 1200w,
+/static/ubuntu-61929c4b13a85ff7c554697452574f8e-d134a.png 1600w,
+/static/ubuntu-61929c4b13a85ff7c554697452574f8e-5ac44.png 1620w"
+        sizes="(max-width: 800px) 100vw, 800px"
+      />
+    </span>
+  </span>
+  
+  </a>
+    </p>
+</li>
+<li>
+<p>You are now in the ubuntu. Check by run  <code class="language-text">cat /etc/lsb-release</code>
+
+  <a
+    class="gatsby-resp-image-link"
+    href="/static/ubuntu version-acd3b6097ee2e7051d153ff1d0b130aa-5ac44.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+  
+  <span
+    class="gatsby-resp-image-wrapper"
+    style="position: relative; display: block; ; max-width: 800px; margin-left: auto; margin-right: auto;"
+  >
+    <span
+      class="gatsby-resp-image-background-image"
+      style="padding-bottom: 70.74074074074073%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAABYlAAAWJQFJUiTwAAABsUlEQVQ4y+XTyW6bQBgH8HmPgLEh3kIgbAbXOOMFzKYUvKRJ90RKK+Ud+rJtGTNjqp7aW9RRB1tJe0g3KbcefvrPovlA32jARezcxNHgWwwnNBqPaBp5NPEmNJ6O6eokomenGT1bZnRxktA0DunjMKHB2Kf+MaRT16Wu7VBL0+gjy6IzCG9A9uTdF99/9VlVDKKqNtF0h+h6n1iWu9GN/uZQsYhpDViaRKh3sCgeYmlfYSnjhtjF1RrHN3FNaGNJkjHwkuuvQfK6tPujtdmD6yNtgHRzuDaYau70J2tZsRFf63zk+PbWHt+6G3NsnRcYlntsDiCcFlGckjDKmDnp2bBotTXUbB2hKlsdDXW6BmqIMmIFcnaQaf8S8GYpDuMFiZMlSefnGz9Icc8ZFXVRzqWmikRJQeK+gmpCN2d/8kcgyp5uTl++LVfPr8rs/LJcvXhTPru8/jSKlgSGC3IczMnAS7ExDLDhzgrDDYpd/qAz5jDEqj0ugNA4yIWGnO9yp1Y/yLm7r3a3ft6/n7w9B6q+3Oe2J9wt/u+AXZMfDvjdjf27/7Egqgp+eKCC1fN8/x0X24S5cd8JhAAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+    >
+      <img
+        class="gatsby-resp-image-image"
+        style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;"
+        alt="ubuntu version"
+        title=""
+        src="/static/ubuntu version-acd3b6097ee2e7051d153ff1d0b130aa-48538.png"
+        srcset="/static/ubuntu version-acd3b6097ee2e7051d153ff1d0b130aa-bed0f.png 200w,
+/static/ubuntu version-acd3b6097ee2e7051d153ff1d0b130aa-5fd34.png 400w,
+/static/ubuntu version-acd3b6097ee2e7051d153ff1d0b130aa-48538.png 800w,
+/static/ubuntu version-acd3b6097ee2e7051d153ff1d0b130aa-b70ec.png 1200w,
+/static/ubuntu version-acd3b6097ee2e7051d153ff1d0b130aa-d134a.png 1600w,
+/static/ubuntu version-acd3b6097ee2e7051d153ff1d0b130aa-5ac44.png 1620w"
+        sizes="(max-width: 800px) 100vw, 800px"
+      />
+    </span>
+  </span>
+  
+  </a>
+    </p>
+</li>
+</ul>
+<h2>Install dependency and tools (0.5 min)</h2>
+<p>Continue in the previous window, run the following code one by one.</p>
+<div class="gatsby-highlight" data-language="bash"><pre class="language-bash"><code class="language-bash"><span class="token function">apt-get</span> update</code></pre></div>
+<div class="gatsby-highlight" data-language="bash"><pre class="language-bash"><code class="language-bash"><span class="token function">apt-get</span> upgrade</code></pre></div>
+<div class="gatsby-highlight" data-language="bash"><pre class="language-bash"><code class="language-bash"><span class="token function">apt-get</span> <span class="token function">install</span> <span class="token function">nano</span> g++</code></pre></div>
+<h2>Congratulations</h2>
+<p>Next time when you want to use ubuntu, just open terminal and run</p>
+<div class="gatsby-highlight" data-language="bash"><pre class="language-bash"><code class="language-bash">docker start ubuntu<span class="token punctuation">;</span> docker <span class="token function">exec</span> -it ubuntu /bin/bash</code></pre></div>
+<p>Make sure Docker is running before run the code.</p>
+<p>P.S. You can create a new profile in terminal that run this code at start to save time.</p></div><footer><div>Loading...</div><div class="jsx-646394116 author"><div class="jsx-646394116 avatar"><img src="/static/avatar-6e33f01bc110ee59f720e12c8ffcea1e.jpg" alt="HeroBlog - a GatsbyJS starter" class="jsx-646394116"/></div><div class="jsx-646394116 note"><p><strong>Yujie</strong> 电子信息在读, 业余程序员, 喜欢捣腾网络开发。Amateur web developer, currently study Electronic and Information Engineering in Imperial College London.</p></div></div><div class="jsx-126278577 links"><a href="/Richmond-Park/"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" height="1em" width="1em"><path d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z"></path></svg><h4 class="jsx-126278577">An Afternoon in Richmond Park<!-- --> <time class="jsx-126278577">2019-10-19<!-- --> </time></h4></a></div><div id="post-comments" class="jsx-3595558049 comments"><div><div class="fb-comments" data-href="https://gatsby-starter-hero-blog.greglobinski.com/Mac-Docker-ubuntu/" data-width="100%"></div></div></div></footer></article></main><footer class="jsx-2344609357 footer"><!-- * This is built upon [gatsby-starter-hero-blog](https://github.com/greglobinski/gatsby-starter-hero-blog) -->
+<ul>
+<li>COPYRIGHT @ <a href="https://www.charleswang.name">Yujie Wang</a></li>
+</ul></footer></div></div><script>
+  
+  
+  if(true) {
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  }
+  if (typeof ga === "function") {
+    ga('create', '...', 'auto', {});
+      
+      }
+      </script><script id="gatsby-script-loader">/*<![CDATA[*/window.page={"componentChunkName":"component---src-templates-post-template-js","jsonName":"mac-docker-ubuntu-e88","path":"/Mac-Docker-ubuntu/"};window.dataPath="53/path---mac-docker-ubuntu-e-88-89a-9yNRkM0Vjiy2EWOfnQn9tLldiE";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"app":["/app.6b68ee5c9c2f8b8858fb.css","/app-e05a166cd5e0511a830b.js"],"component---node-modules-gatsby-plugin-offline-app-shell-js":["/component---node-modules-gatsby-plugin-offline-app-shell-js-352b2a4209f8cccc8312.js"],"component---src-templates-category-template-js":["/component---src-templates-category-template-js-95d13537c3aee6898993.js"],"component---src-templates-post-template-js":["/component---src-templates-post-template-js-56290e2be16568ece094.js"],"component---src-templates-page-template-js":["/component---src-templates-page-template-js-472d58d3af9fe18ece04.js"],"component---src-pages-404-js":["/component---src-pages-404-js-a585c7a4efb0da60d9f3.js"],"component---src-pages-category-js":["/component---src-pages-category-js-6e68fa5ec047eeac6eb2.js"],"component---src-pages-contact-js":["/component---src-pages-contact-js-d8313a58101442ad5976.js"],"component---src-pages-index-js":["/component---src-pages-index-js-31b69f1812e171642ce9.js"],"component---src-pages-search-js":["/component---src-pages-search-js-9b0b1a547e55b011bc59.js"]};/*]]>*/</script><script src="/component---src-templates-post-template-js-56290e2be16568ece094.js" async=""></script><script src="/16-052d31212ed47609ce11.js" async=""></script><script src="/0-29d6f7794e84a205392b.js" async=""></script><script src="/app-e05a166cd5e0511a830b.js" async=""></script><script src="/webpack-runtime-2f1bc7ddbb479095329e.js" async=""></script></body></html>
