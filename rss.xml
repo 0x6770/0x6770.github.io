@@ -1,4 +1,282 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Yujie's Blog]]></title><description><![CDATA[Yujie's Blog]]></description><link>https://ouikujie.github.io</link><generator>RSS for Node</generator><lastBuildDate>Thu, 07 Nov 2019 10:15:25 GMT</lastBuildDate><item><title><![CDATA[An Afternoon in Richmond Park]]></title><description><![CDATA[在上海生活了太久, 习惯了城市就是商场高楼和车水马龙, 城市公园还是很新奇的。 原本是打算去 Richmand 看日落, 从 Paddington 出发, 用了近两小时才赶到, 伦敦的公共交通是真的不靠谱, 地铁坐了两站就出故障, 20分钟的车程坐了4…]]></description><link>https://ouikujie.github.io/Richmond-Park/</link><guid isPermaLink="false">https://ouikujie.github.io/Richmond-Park/</guid><pubDate>Sat, 19 Oct 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Yujie's Blog]]></title><description><![CDATA[Yujie's Blog]]></description><link>https://ouikujie.github.io</link><generator>RSS for Node</generator><lastBuildDate>Sun, 17 Nov 2019 23:02:44 GMT</lastBuildDate><item><title><![CDATA[Markdown]]></title><description><![CDATA[Have you been bother about the complex UI in Word when you just want to write some notes? Have you wondered whether there is a way to simply…]]></description><link>https://ouikujie.github.io/Markdown/</link><guid isPermaLink="false">https://ouikujie.github.io/Markdown/</guid><pubDate>Fri, 15 Nov 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Have you been bother about the complex UI in Word when you just want to write some notes? Have you wondered whether there is a way to simply type maths expression? If you have the same complain as me, markdown would be the best solution.&lt;/p&gt;
+&lt;h4&gt;Reasons for using Markdown&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;easy to use&lt;/li&gt;
+&lt;li&gt;easy to integrate with Tex/Latex and other utilities&lt;/li&gt;
+&lt;li&gt;easy to export into other format (e.g. pdf, html, docx, rtf)&lt;/li&gt;
+&lt;li&gt;lightweight&lt;/li&gt;
+&lt;li&gt;code highlighting&lt;/li&gt;
+&lt;li&gt;universal access (most editors are cross-platform)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(some features are not supported by all editors)&lt;/p&gt;
+&lt;h3&gt;🌈 Get start with markdown&lt;/h3&gt;
+&lt;p&gt;First of all, you need an editor to start with. Personally, I recommend to use &lt;a href=&quot;https://www.typora.io/&quot;&gt;Typora&lt;/a&gt; but you can also find tons of other app which has similar functionality.  Just click the link or go to &lt;a href=&quot;https://www.typora.io/&quot;&gt;https://www.typora.io/&lt;/a&gt;. Scroll to bottom and there choose the version for your OS. In this article, I will use MacOS version to demonstrate.&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/downloadTypora-139bc018d2df741b24118e00e86734d8-36f7d.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 800px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 57.99648506151143%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAABYlAAAWJQFJUiTwAAACGUlEQVQoz4VSS2sTURSef+LGRXfdKIKSIC1duBNBFBddVLCVPgIFdSPowoVdZCEKIgouxIVSXKdpHm1ohLEbDU2jIQ80r5nJRJPMe9Lm857bmaFpKJ3h45x7zrnfPfe7RzBNEwTDMEYswbIs2LYdrI+D4sdrfQgnyfxCTdPQ7XYhSRJfE3RdD3Kqqo41MEJIRLQ5FoshlUohHo+jUqlAFEW+TqfTyGazSCaTKJfLKBQK/AanEpKlk6vVKieq1+vo9/tot9t8c7FYRLPZ5PlOpxN0O0ZICSIikE+dEuh0f5PjOLAdl8VYjvmmedSZrum8xq/jhK7rYuwbDgN3MBjAtgwMXSvAwGEPxg499P6Dw4NAT6FYKmFjcxNJplGCwPRKeP5GIoH8fh6/lT629yXs/JSxxWzuzz/ILRni9jeImV382M1B62tHHT6PRnFuYgJXpqdxMRzG5akpXAiFEJqZwfnJSTx4uIr3XyWE10TcfP0dV5ld/FxCJpbBjUu3MXdtHgvXl9gBCpPGhvBpfR23ZmdxPxLB/PIyxz2GhZUV3Jm7i7fv3iCeV7H4YQ+Pv/xC5OMeXm7VkGNdPVl6hrVHUbx4+god9S/T3oJA4pOOjvcY/AFYzPF8PtyWCYfBMg2uJ/cpzjqybCuYXcNgV6YBlWSZQ1EUjlarxcdF9mJ+jaK0ea7eaPB4g1lCrVZDr9cbncPTcFb+5Cz+B0/PW8wNFEAOAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot;
+        alt=&quot;download Typora&quot;
+        title=&quot;&quot;
+        src=&quot;/static/downloadTypora-139bc018d2df741b24118e00e86734d8-48538.png&quot;
+        srcset=&quot;/static/downloadTypora-139bc018d2df741b24118e00e86734d8-bed0f.png 200w,
+/static/downloadTypora-139bc018d2df741b24118e00e86734d8-5fd34.png 400w,
+/static/downloadTypora-139bc018d2df741b24118e00e86734d8-48538.png 800w,
+/static/downloadTypora-139bc018d2df741b24118e00e86734d8-36f7d.png 1138w&quot;
+        sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;The start screen of Typora is minimalism with only the essential info.&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/typoraStartScreen-5d55e2834d3a5739fd9e65c15ea78d2b-b76a6.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 800px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 74.83059051306873%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAABYlAAAWJQFJUiTwAAABCElEQVQ4y+2TQUrEMBSGg4o7QaZLGT2LuJxSeonELly6smdw2ZYeoJtx4RlyhtIuVaTTDog2bTRpQyeaDp2hCzehK8EfPgjv8T6SBwHYuj9cp/jy+ePJ+qy/FqQiZlVVeyilZp7nZpZl2/O4V9e1WZbloigKixByhTE+Bnc3t6eMlqvviWma5i2KojMAr5HBePM61DuF1KQbhIXneecAQTTjnG2FUsqN1M9mJwyCYA4QQgbnfCzUeupIuP5VqLu7f+FfEEIIZ4yxl6EpFJ0mop9Vl1r5vj8HjuMYbdu+T/16QggahuEFsG37JI5jL03TxyRJlooHTZb9rHKErusaYMiB4mgivQP8ALQ89EK6BSq2AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot;
+        alt=&quot;typora start screen&quot;
+        title=&quot;&quot;
+        src=&quot;/static/typoraStartScreen-5d55e2834d3a5739fd9e65c15ea78d2b-48538.png&quot;
+        srcset=&quot;/static/typoraStartScreen-5d55e2834d3a5739fd9e65c15ea78d2b-bed0f.png 200w,
+/static/typoraStartScreen-5d55e2834d3a5739fd9e65c15ea78d2b-5fd34.png 400w,
+/static/typoraStartScreen-5d55e2834d3a5739fd9e65c15ea78d2b-48538.png 800w,
+/static/typoraStartScreen-5d55e2834d3a5739fd9e65c15ea78d2b-b70ec.png 1200w,
+/static/typoraStartScreen-5d55e2834d3a5739fd9e65c15ea78d2b-d134a.png 1600w,
+/static/typoraStartScreen-5d55e2834d3a5739fd9e65c15ea78d2b-b76a6.png 2066w&quot;
+        sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;You can quick edit the file location and name by clicking the file name, and see stats on the right top of the window. More settings can be found in the menu bar.&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/TyporaSettings-3be1be49096667607a825b7f23f8d32b-b76a6.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 800px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 74.83059051306873%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAABYlAAAWJQFJUiTwAAABeklEQVQ4y+2SzUrDQBSFBxV3grRLqT6LuOxQ+w7aUnDpSvoO7mzJuru6cNe1+AqlEbpoS20aG00nP5OZZNLecVITURGxCK48cMid5JyPCVx0d3y5aeq3h0N7UKJeUHRdB7uuiz3PwwFjOJISz+Zz/GCamIkYU84xjSLsB8EqRwgpGoZR6vf7R51OZxtdnJ3vMp8Y8pOWAJLYtrT0ezmfTKSt7JimdC1LOtOpjCj9kKeUPrVarT10Uj3N8zAcJy8BYKEMyagCMBoOYTYew2wyAWJZ4BMCZDiAZ3V2HQdeK7BIumEYmo1GYx9Vq9Uc5ywDLjNgHMcQBAGo3wZfwamaGecQeN5qjoTIgMukyzk3m81mIQHm1eENmD7lT5Tkso664eOXwAyWhr/1+0v8HVCuqX9gAVUqlRxjbJR+FOlyr2OR7qGhFruAarVaPooiW/5SQghf07QDVC6Xd7rd7pWu6ze9Xq+tfL2m20lXMbR6vZ5HqTaUt37phIFeAHbl7uKSk6RjAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot;
+        alt=&quot;Typora settings&quot;
+        title=&quot;&quot;
+        src=&quot;/static/TyporaSettings-3be1be49096667607a825b7f23f8d32b-48538.png&quot;
+        srcset=&quot;/static/TyporaSettings-3be1be49096667607a825b7f23f8d32b-bed0f.png 200w,
+/static/TyporaSettings-3be1be49096667607a825b7f23f8d32b-5fd34.png 400w,
+/static/TyporaSettings-3be1be49096667607a825b7f23f8d32b-48538.png 800w,
+/static/TyporaSettings-3be1be49096667607a825b7f23f8d32b-b70ec.png 1200w,
+/static/TyporaSettings-3be1be49096667607a825b7f23f8d32b-d134a.png 1600w,
+/static/TyporaSettings-3be1be49096667607a825b7f23f8d32b-b76a6.png 2066w&quot;
+        sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h3&gt;OK, so now I’ve set up the editor, but what is markdown? 🤔&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Markdown&lt;/strong&gt; is originally created by &lt;a href=&quot;http://daringfireball.net/&quot;&gt;Daring Fireball&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Wikipedia would tell you that&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Markdown&lt;/strong&gt; is a lightweight markup language with plain text formatting syntax. Its design allows it to be converted to many output formats, but the original tool by the same name only supports HTML Markdown is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Let me show you what this means.&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/sourceCode-cf867a0acc0a4ec9af009d35b46dd8bc-0919d.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 800px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 71.90008920606601%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAABYlAAAWJQFJUiTwAAACY0lEQVQ4y4WTzU7bQBDHfSrPUJKXgENP5jG4mFdoSIJU4IAgiYQgqaoeeAheoM/QWzhVqkopjhMOkPpjbe+u117vTmc3kPJR1JX++o+89m/WM7PO+OOXNzdXXzfDfL7FKPdIkqCIF0exjROSet/8Gy8IAi9NUy+KIi8MQysTZ1nmXVxcbI3H483z8/MV5/Po09tS8BruFxcFMM6BFRwoZ9YzSiHPc6DoSinQWls9XowxeXZ21nCOekcNWde5eYgv1zJlShKmFBWqRq9TrkBptdhW1p/JHqau6+zk5KTpDPr9VSklNQ8xq6Ik0ySKNc+p5hldOOO6qir9yjJQwP18OBw2nX6/33gAGubdfA7T2QwIIZBmGWCNgKTE/q4QYvmrj9wGyPg3EAsPt7e3FmQAZVlaL4riBey/QCyRNg2hjKIYZDmeEJthkhjoA+yZXgeaTYknqcsKVFWDKiVoWb/o6LP1OlBWUmdYQxbGwH7HkN9FQMPEjhHHExc4Rpwb51DyHMshTHeXwNPT06bT6/WWQKybnvqXML3+DrPgJ0ymAfzyfZhMAgj8a7iZXMLM/wFT/8pqPr8zzXoK7D8am1IIFYehJkmkC5ZrwelSnGWa078qisUoYdPUE+BgMGjgsflDQUpeQFkwqDg2gsbWJUtw0HD2TV7jRrV4UkhksNFo1HQODw9X8doQzIRZiyqKYxnHiYxQCyc2xju9lBClFCVKCKPKfIuM5Pj4uOGsra2tHBwcvNvf399AuTs7XbfT2Xa7nbbb7XZs3G633PZ2y91uvbe+u/vB3dvbdc3799owjPX19ZU/Tc7Jn1KDnJMAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot;
+        alt=&quot;source code&quot;
+        title=&quot;&quot;
+        src=&quot;/static/sourceCode-cf867a0acc0a4ec9af009d35b46dd8bc-48538.png&quot;
+        srcset=&quot;/static/sourceCode-cf867a0acc0a4ec9af009d35b46dd8bc-bed0f.png 200w,
+/static/sourceCode-cf867a0acc0a4ec9af009d35b46dd8bc-5fd34.png 400w,
+/static/sourceCode-cf867a0acc0a4ec9af009d35b46dd8bc-48538.png 800w,
+/static/sourceCode-cf867a0acc0a4ec9af009d35b46dd8bc-b70ec.png 1200w,
+/static/sourceCode-cf867a0acc0a4ec9af009d35b46dd8bc-d134a.png 1600w,
+/static/sourceCode-cf867a0acc0a4ec9af009d35b46dd8bc-0919d.png 2242w&quot;
+        sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;Markdown file markups text which can be recognised by editors or phasers. For example, different levels of header are recognised by the number of #, one # indicates level one header. You can definitely add effects on text using code, but I prefer to use keyboard shortcuts. On macOS, &lt;code class=&quot;language-text&quot;&gt;⌘ 1&lt;/code&gt; change the current line into a level one header. And you can change the header level by &lt;code class=&quot;language-text&quot;&gt;⌘ -&lt;/code&gt; and &lt;code class=&quot;language-text&quot;&gt;⌘ =&lt;/code&gt;.&lt;/p&gt;
+&lt;h4&gt;List of a few shortcuts for Typora on macOS&lt;/h4&gt;
+&lt;iframe class=&quot;airtable-embed&quot; src=&quot;https://airtable.com/embed/shrwreRAwStgGX8NA?backgroundColor=blue&amp;layout=card&quot; frameborder=&quot;0&quot; onmousewheel=&quot;&quot; width=&quot;100%&quot; height=&quot;200&quot; style=&quot;background: transparent; border: 1px solid #ccc;&quot;&gt;&lt;/iframe&gt;
+You can find a full list of shortcuts in the [here](http://support.typora.io/Shortcut-Keys/).
+&lt;h3&gt;How to embed Maths expression&lt;/h3&gt;
+&lt;p&gt;Typora provides two ways for embedding maths expressions. &lt;strong&gt;Inline maths&lt;/strong&gt; and &lt;strong&gt;maths block&lt;/strong&gt;.&lt;/p&gt;
+&lt;h4&gt;Inline maths $…$&lt;/h4&gt;
+&lt;p&gt;With inline maths, you can embed a maths expression e.g. &lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;y&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mo&gt;∫&lt;/mo&gt;&lt;msup&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/msup&gt;&lt;mtext&gt; &lt;/mtext&gt;&lt;mi&gt;d&lt;/mi&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;/mrow&gt;&lt;annotation encoding=&quot;application/x-tex&quot;&gt;y=\int x^2 \,dx&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:0.625em;vertical-align:-0.19444em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord mathdefault&quot; style=&quot;margin-right:0.03588em;&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;mspace&quot; style=&quot;margin-right:0.2777777777777778em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mrel&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mspace&quot; style=&quot;margin-right:0.2777777777777778em;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:1.120228em;vertical-align:-0.30612em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mop op-symbol small-op&quot; style=&quot;margin-right:0.19445em;position:relative;top:-0.0005599999999999772em;&quot;&gt;∫&lt;/span&gt;&lt;span class=&quot;mspace&quot; style=&quot;margin-right:0.16666666666666666em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;&lt;span class=&quot;mord mathdefault&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;msupsub&quot;&gt;&lt;span class=&quot;vlist-t&quot;&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:0.8141079999999999em;&quot;&gt;&lt;span style=&quot;top:-3.063em;margin-right:0.05em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:2.7em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;sizing reset-size6 size3 mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;2&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;mspace&quot; style=&quot;margin-right:0.16666666666666666em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord mathdefault&quot;&gt;d&lt;/span&gt;&lt;span class=&quot;mord mathdefault&quot;&gt;x&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; in text line.&lt;/p&gt;
+&lt;p&gt;Inline maths can be implied by using $…$, where … represents Latex command. For example, the source code of the above line is&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;latex&quot;&gt;&lt;pre class=&quot;language-latex&quot;&gt;&lt;code class=&quot;language-latex&quot;&gt;With inline maths, you can embed a maths expression e.g. &lt;span class=&quot;token equation string&quot;&gt;$y=&lt;span class=&quot;token equation-command regex&quot;&gt;\int&lt;/span&gt; x^2 &lt;span class=&quot;token equation-command regex&quot;&gt;\,&lt;/span&gt;dx$&lt;/span&gt; in text line.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;You need to enable this feature first as it’s disabled in default in the &lt;code class=&quot;language-text&quot;&gt;preference&lt;/code&gt; Panel / &lt;code class=&quot;language-text&quot;&gt;Markdown&lt;/code&gt; Tab.&lt;/p&gt;
+&lt;h4&gt;Maths block $$…$$&lt;/h4&gt;
+&lt;p&gt;Maths block allows you to display maths expression in individual space.&lt;/p&gt;
+&lt;span class=&quot;katex-display&quot;&gt;&lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;f&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;msubsup&gt;&lt;mo&gt;∫&lt;/mo&gt;&lt;mrow&gt;&lt;mo&gt;−&lt;/mo&gt;&lt;mi mathvariant=&quot;normal&quot;&gt;∞&lt;/mi&gt;&lt;/mrow&gt;&lt;mi mathvariant=&quot;normal&quot;&gt;∞&lt;/mi&gt;&lt;/msubsup&gt;&lt;mover accent=&quot;true&quot;&gt;&lt;mi&gt;f&lt;/mi&gt;&lt;mo&gt;^&lt;/mo&gt;&lt;/mover&gt;&lt;mi&gt;ξ&lt;/mi&gt;&lt;mtext&gt; &lt;/mtext&gt;&lt;msup&gt;&lt;mi&gt;e&lt;/mi&gt;&lt;mrow&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;mi&gt;π&lt;/mi&gt;&lt;mi&gt;i&lt;/mi&gt;&lt;mi&gt;ξ&lt;/mi&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;/mrow&gt;&lt;/msup&gt;&lt;mtext&gt; &lt;/mtext&gt;&lt;mi&gt;d&lt;/mi&gt;&lt;mi&gt;ξ&lt;/mi&gt;&lt;/mrow&gt;&lt;annotation encoding=&quot;application/x-tex&quot;&gt;f(x) = \int_{-\infty}^\infty
+    \hat f\xi\,e^{2 \pi i \xi x}
+    \,d\xi&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:1em;vertical-align:-0.25em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord mathdefault&quot; style=&quot;margin-right:0.10764em;&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;mopen&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mord mathdefault&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;mclose&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;mspace&quot; style=&quot;margin-right:0.2777777777777778em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mrel&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mspace&quot; style=&quot;margin-right:0.2777777777777778em;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:2.384573em;vertical-align:-0.970281em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mop&quot;&gt;&lt;span class=&quot;mop op-symbol large-op&quot; style=&quot;margin-right:0.44445em;position:relative;top:-0.0011249999999999316em;&quot;&gt;∫&lt;/span&gt;&lt;span class=&quot;msupsub&quot;&gt;&lt;span class=&quot;vlist-t vlist-t2&quot;&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:1.414292em;&quot;&gt;&lt;span style=&quot;top:-1.7880500000000001em;margin-left:-0.44445em;margin-right:0.05em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:2.7em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;sizing reset-size6 size3 mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;−&lt;/span&gt;&lt;span class=&quot;mord mtight&quot;&gt;∞&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;top:-3.8129000000000004em;margin-right:0.05em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:2.7em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;sizing reset-size6 size3 mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;∞&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;vlist-s&quot;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:0.970281em;&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;mspace&quot; style=&quot;margin-right:0.16666666666666666em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord accent&quot;&gt;&lt;span class=&quot;vlist-t vlist-t2&quot;&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:0.9578799999999998em;&quot;&gt;&lt;span style=&quot;top:-3em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:3em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord mathdefault&quot; style=&quot;margin-right:0.10764em;&quot;&gt;f&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;top:-3.26344em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:3em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;accent-body&quot; style=&quot;left:-0.08332999999999999em;&quot;&gt;&lt;span class=&quot;mord&quot;&gt;^&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;vlist-s&quot;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:0.19444em;&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;mord mathdefault&quot; style=&quot;margin-right:0.04601em;&quot;&gt;ξ&lt;/span&gt;&lt;span class=&quot;mspace&quot; style=&quot;margin-right:0.16666666666666666em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;&lt;span class=&quot;mord mathdefault&quot;&gt;e&lt;/span&gt;&lt;span class=&quot;msupsub&quot;&gt;&lt;span class=&quot;vlist-t&quot;&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:0.8991079999999999em;&quot;&gt;&lt;span style=&quot;top:-3.1130000000000004em;margin-right:0.05em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:2.7em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;sizing reset-size6 size3 mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;mord mathdefault mtight&quot; style=&quot;margin-right:0.03588em;&quot;&gt;π&lt;/span&gt;&lt;span class=&quot;mord mathdefault mtight&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;mord mathdefault mtight&quot; style=&quot;margin-right:0.04601em;&quot;&gt;ξ&lt;/span&gt;&lt;span class=&quot;mord mathdefault mtight&quot;&gt;x&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;mspace&quot; style=&quot;margin-right:0.16666666666666666em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord mathdefault&quot;&gt;d&lt;/span&gt;&lt;span class=&quot;mord mathdefault&quot; style=&quot;margin-right:0.04601em;&quot;&gt;ξ&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;p&gt;Maths block can be implied by using $$…$$, where … represents Latex command. For example, the source code of the above line is&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;latex&quot;&gt;&lt;pre class=&quot;language-latex&quot;&gt;&lt;code class=&quot;language-latex&quot;&gt;&lt;span class=&quot;token equation string&quot;&gt;$$&lt;/span&gt;
+f(x) = &lt;span class=&quot;token function selector&quot;&gt;\int&lt;/span&gt;_&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;-&lt;span class=&quot;token function selector&quot;&gt;\infty&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;^&lt;span class=&quot;token function selector&quot;&gt;\infty&lt;/span&gt;
+    &lt;span class=&quot;token function selector&quot;&gt;\hat&lt;/span&gt; f&lt;span class=&quot;token function selector&quot;&gt;\xi&lt;/span&gt;&lt;span class=&quot;token function selector&quot;&gt;\,&lt;/span&gt;e^&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;2 &lt;span class=&quot;token function selector&quot;&gt;\pi&lt;/span&gt; i &lt;span class=&quot;token function selector&quot;&gt;\xi&lt;/span&gt; x&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;token function selector&quot;&gt;\,&lt;/span&gt;d&lt;span class=&quot;token function selector&quot;&gt;\xi&lt;/span&gt;
+&lt;span class=&quot;token equation string&quot;&gt;$$&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Typora uses &lt;a href=&quot;https://www.mathjax.org/&quot;&gt;MathJax&lt;/a&gt; to render maths expression, a full list of supported Tex/Latex command can be found &lt;a href=&quot;http://docs.mathjax.org/en/latest/input/tex/macros/index.html&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;h3&gt;Let’s talk about Code Highlighting 👨‍💻👩‍💻&lt;/h3&gt;
+&lt;p&gt;If you don’t have the habit of taking notes on what you code, I strongly recommend you to do so. It’s very helpful when you go back to code you typed weeks ago if you have an outline of them. Markdown is the right tool to do this job.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;c++&quot;&gt;&lt;pre class=&quot;language-c++&quot;&gt;&lt;code class=&quot;language-c++&quot;&gt;#include &amp;lt;iostream&amp;gt;
+using namespace std;
+int main(){
+  cout &amp;lt;&amp;lt; &amp;quot;Hello world!&amp;quot; &amp;lt;&amp;lt; endl;
+  return 0;
+}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Markdown uses the syntax ```…``` to start a code block or `…` to embed an inline code snippet.&lt;/p&gt;
+&lt;h4&gt;Example of Code Block&lt;/h4&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;markdown&quot;&gt;&lt;pre class=&quot;language-markdown&quot;&gt;&lt;code class=&quot;language-markdown&quot;&gt;​```javascript
+function double(x){
+&lt;span class=&quot;token code keyword&quot;&gt;	let y = 2*x;&lt;/span&gt;
+&lt;span class=&quot;token code keyword&quot;&gt;	return y;&lt;/span&gt;
+}
+​```&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h5&gt;Remark&lt;/h5&gt;
+&lt;p&gt;When using code block, you can specify the language of code.&lt;/p&gt;
+&lt;h4&gt;Example of Inline Code&lt;/h4&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;markdown&quot;&gt;&lt;pre class=&quot;language-markdown&quot;&gt;&lt;code class=&quot;language-markdown&quot;&gt;If you want to use &lt;span class=&quot;token code keyword&quot;&gt;`stoi`&lt;/span&gt;, you need to add &lt;span class=&quot;token code keyword&quot;&gt;`#include &amp;lt;string&gt;`&lt;/span&gt; to the head of file.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3&gt;Other syntaxes ⌨️&lt;/h3&gt;
+&lt;h4&gt;Task list &lt;code class=&quot;language-text&quot;&gt;- [ ]&lt;/code&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; Wait to be finished&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; Finished&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;markdown&quot;&gt;&lt;pre class=&quot;language-markdown&quot;&gt;&lt;code class=&quot;language-markdown&quot;&gt;&lt;span class=&quot;token list punctuation&quot;&gt;-&lt;/span&gt; [ ] Wait to be finished
+&lt;span class=&quot;token list punctuation&quot;&gt;-&lt;/span&gt; [x] Finished&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h4&gt;Links &lt;code class=&quot;language-text&quot;&gt;[ ]( )&lt;/code&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://blog.charleswang.name/markdown&quot;&gt;link to this blog&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;markdown&quot;&gt;&lt;pre class=&quot;language-markdown&quot;&gt;&lt;code class=&quot;language-markdown&quot;&gt;&lt;span class=&quot;token url&quot;&gt;[link to this blog](http://blog.charleswang.name/markdown)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h4&gt;Unordered Lists &lt;code class=&quot;language-text&quot;&gt;-&lt;/code&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;element&lt;/li&gt;
+&lt;li&gt;element&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;markdown&quot;&gt;&lt;pre class=&quot;language-markdown&quot;&gt;&lt;code class=&quot;language-markdown&quot;&gt;&lt;span class=&quot;token list punctuation&quot;&gt;-&lt;/span&gt; element
+&lt;span class=&quot;token list punctuation&quot;&gt;-&lt;/span&gt; element&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h4&gt;Ordered Lists &lt;code class=&quot;language-text&quot;&gt;num.&lt;/code&gt;&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;First element&lt;/li&gt;
+&lt;li&gt;Second element&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;markdown&quot;&gt;&lt;pre class=&quot;language-markdown&quot;&gt;&lt;code class=&quot;language-markdown&quot;&gt;&lt;span class=&quot;token list punctuation&quot;&gt;1.&lt;/span&gt; First element
+&lt;span class=&quot;token list punctuation&quot;&gt;2.&lt;/span&gt; Second element&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h5&gt;Remark&lt;/h5&gt;
+&lt;p&gt;A full list of syntax supported by Typora can be found &lt;a href=&quot;http://support.typora.io/Markdown-Reference/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;h3&gt;Conclusion 🚩&lt;/h3&gt;
+&lt;p&gt;I’ve given a few examples of what you can do with markdown. It’s time back to the question, why markdown. Surely, we have apps like OneNote that support handwriting and Pages/Word that has advanced support for tables and charts. Markdown is not an ultimate solution for text editing, it exists more likes a simple and reliable tool that you can rely on when you want to write. You can open and edit a markdown even in the CUI, that’s why developers use markdown to write README.&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/vim-6b83795bc6c096ce8e2b3627ab3b0217-5ac44.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 800px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 70.74074074074073%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAABYlAAAWJQFJUiTwAAAC/ElEQVQ4y0WS227kRBCG/R4QkWzmfLDdZ7fbp7HHmUxCZmazVwhxWIF24WIlQAJxg3hqJHZsV1H2ZMXFr7+qu93+qqq9t8ei2+9j2EQWqiSGxzqHbepgVySwzRw8nJ7g8LiDx10F91VBZzKo0hzyyEBuDVgpgPtrMJxh6eLGW9m6SaIMGHcdF65TOu2kSjsTFR2ntcVSkGQ3X0hy1a1Wplsu9SUnzeaiG09ZN51xoPzsGW4bo3KUokLBN6jI5aASlaqQiwKF2qAkcVmg1Bs0dktxPuRRXKM2FShTYcjTj14WpU2V1ejsPaTxHorkS0jsHozagrV3YN0dxG5HusSRrcEll9yl9E2+hyx/6HP6aXH2Qlk0MtqiiWvQ9GdtK1Rmgzap0bqa6HJcBzEGLEE/cIP3+dqntTD5JFjT3nIdnT0ZmiYXGm2oIWEKJXPIfSoxoIvDLbJ1TipwOlc4mUqSwMlM/h9fcpjNNY6nnAhZ0giRITlImRFBSugl5SkynqPSl/6x/gxPXzxDQf3r417LtYXZQuN0RkMRYdQ4ptEECkzQkypUnCiDzUB6UTE4C/KBtFd/waz3npwIe+rRhAiFzBqjaVpmAySMohI1USmipOkhDYEoS1ofpjnQDt6Tv9BTFdCf4TI7e1Ri47MMfZZCQCWGIh8aP4gnw/Po/VN5Qr2USmX3e0MbeAb9E/JDd/b8BW/UiiFfclBLhsFK43pBly1S9MnXc4f+0lHzOY7GIY4njEojjRnejtiQk2A8of1RePaqh6+aJD9gXh6grA+Qb0+QVs+k14Nn2zfgijegkxPo9AgqOYJJT2CyE2TlEYQ7gMieQBVHDOzuo7d5fmi3TxVaetzC9qL+UB8HUazpLRZ3Be5fb/D+WOLuUODDc437U4XffhdjeW8xjywWUYyJ1I339fubf3/4ddy5TLS3K9aOg7C9uZ23119MyGftq4XfPn8zaj/8dd2+//2m/fnP6/Yd+Y+/vWo//H3V/vLHVfvOfd7+ZD+D783VP/8ByG3PaSPYBVsAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot;
+        alt=&quot;vim&quot;
+        title=&quot;&quot;
+        src=&quot;/static/vim-6b83795bc6c096ce8e2b3627ab3b0217-48538.png&quot;
+        srcset=&quot;/static/vim-6b83795bc6c096ce8e2b3627ab3b0217-bed0f.png 200w,
+/static/vim-6b83795bc6c096ce8e2b3627ab3b0217-5fd34.png 400w,
+/static/vim-6b83795bc6c096ce8e2b3627ab3b0217-48538.png 800w,
+/static/vim-6b83795bc6c096ce8e2b3627ab3b0217-b70ec.png 1200w,
+/static/vim-6b83795bc6c096ce8e2b3627ab3b0217-d134a.png 1600w,
+/static/vim-6b83795bc6c096ce8e2b3627ab3b0217-5ac44.png 1620w&quot;
+        sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h3&gt;Bonus&lt;/h3&gt;
+&lt;p&gt;Typora supports some common html syntax. For example,&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;html&quot;&gt;&lt;pre class=&quot;language-html&quot;&gt;&lt;code class=&quot;language-html&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;span&lt;/span&gt;&lt;span class=&quot;token style-attr language-css&quot;&gt;&lt;span class=&quot;token attr-name&quot;&gt; &lt;span class=&quot;token attr-name&quot;&gt;style&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&apos;&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token property&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; orange&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token property&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 30px&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&apos;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;These words are decorated using html and css. &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;span&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The code above is written in html, the text between &lt;code class=&quot;language-text&quot;&gt;&amp;lt;span&amp;gt;&lt;/code&gt; and &lt;code class=&quot;language-text&quot;&gt;&amp;lt;/span&amp;gt;&lt;/code&gt; is content and the text quoted after &lt;code class=&quot;language-text&quot;&gt;style&lt;/code&gt; specifies style of content. It would be rendered as below.&lt;/p&gt;
+&lt;p&gt;&lt;span style=&apos;color: orange; font-size: 30px;&apos;&gt;These words are decorated using html and css. &lt;/span&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;html&quot;&gt;&lt;pre class=&quot;language-html&quot;&gt;&lt;code class=&quot;language-html&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;iframe&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;airtable-embed&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;src&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;https://airtable.com/embed/shrwreRAwStgGX8NA?backgroundColor=blue&amp;amp;layout=card&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;frameborder&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;0&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;onmousewheel&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;100%&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;200&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token style-attr language-css&quot;&gt;&lt;span class=&quot;token attr-name&quot;&gt; &lt;span class=&quot;token attr-name&quot;&gt;style&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&quot;&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token property&quot;&gt;background&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; transparent&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token property&quot;&gt;border&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 1px solid #ccc&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;iframe&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Remember the table I used to show keyboard shortcut? It is embedded as &lt;code class=&quot;language-text&quot;&gt;iframe&lt;/code&gt; block in markdown. And, yes, this blog is written in markdown.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[An Afternoon in Richmond Park]]></title><description><![CDATA[在上海生活了太久, 习惯了城市就是商场高楼和车水马龙, 城市公园还是很新奇的。 原本是打算去 Richmand 看日落, 从 Paddington 出发, 用了近两小时才赶到, 伦敦的公共交通是真的不靠谱, 地铁坐了两站就出故障, 20分钟的车程坐了4…]]></description><link>https://ouikujie.github.io/Richmond-Park/</link><guid isPermaLink="false">https://ouikujie.github.io/Richmond-Park/</guid><pubDate>Sat, 19 Oct 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
     href=&quot;/static/IMG_20191019_175952-ae104e19d10764062466ff1755cc3304-aafac.jpg&quot;
